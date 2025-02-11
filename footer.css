@@ -1,0 +1,35 @@
+.footer {
+  background-color: #21522d; /* Verde escuro */
+  color: #fff;
+  padding: 10px 0;
+  text-align: center;
+}
+
+.social-icons {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  margin: 0;
+  gap: 15px;
+}
+
+.social-icons li {
+  display: inline-block;
+}
+
+.social-icons a {
+  color: #fff;
+  font-size: 24px;
+  transition: color 0.3s ease;
+  text-decoration: none;
+}
+
+.social-icons a:hover {
+  color: #a6f1a6; /* Verde claro no hover */
+}
+
+.footer p {
+  margin-top: 10px;
+  font-size: 14px;
+}

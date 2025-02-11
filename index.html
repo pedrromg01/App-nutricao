@@ -1,0 +1,187 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Nutrição Florestal</title>
+    <script type="module" src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"></script>
+    <link rel="stylesheet" href="index.css">
+    <link rel="stylesheet" href="footer.css">
+    <script src="carrossel.js" defer></script>
+    <script src="consultar.js" defer></script>
+</head>
+<body>
+    <header>
+        <nav class="navbar">
+            <img src="/assets/ufscar-logo.png" alt="Logo UFSCar" class="logo-ufscar">
+            <ul>
+                <li><a href="#inicio">Inicio</a></li>
+                <li><a href="#nutrientes">Nutrientes</a></li>
+                <li><a href="#consultar">Consultar</a></li>
+            </ul>
+        </nav>
+    </header>
+    
+    <!-- Seção de Início -->
+    <section id="inicio">
+        <div class="container-home">
+            <div class="title-logo">
+                <h1>Engenharia Florestal</h1>
+                <img src="/assets/engenharia-florestal.png" alt="Logo Engenharia Florestal" class="logo">
+            </div>
+            <h3>Bem-vindo ao Projeto de Nutrição Florestal!</h3>
+        </div>
+    </section>
+    
+    <!-- Seção Nutrientes -->
+    <section id="nutrientes" class="section nutrientes-section">
+        <h2>Nutrientes</h2>
+        <p>Detalhes sobre os micros e macros nutrientes essenciais para a nutrição florestal.</p>
+        <br><br>
+        
+        <!-- Carrossel de Nutrientes -->
+        <div class="carousel-container">
+            <button class="carousel-button prev">&lt;</button>
+            <div class="carousel-track-container">
+                <ul class="carousel-track">
+                    <!-- Cartões -->
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/boro.jpg" alt="Boro">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/calcio.jpg" alt="Calcio">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/cloro.jpg" alt="Cloro">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/cobre.jpg" alt="Cobre">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/enxofre.jpg" alt="Enxofre">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/ferro.jpg" alt="Ferro">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/fosforo.jpg" alt="fosforo">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/magnesio.jpg" alt="Magnesio">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/manganes.jpg" alt="Manganes">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/molibdenio.jpg" alt="Molibdenio">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/niquel.jpg" alt="Niquel">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/nitrogenio.jpg" alt="Nitrogênio">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/potassio.jpg" alt="Potassio">
+                    </li>
+                    <li class="carousel-slide">
+                        <img src="/nutrientes/zinco.jpg" alt="Zinco">
+                    </li>
+                </ul>
+            </div>
+            <button class="carousel-button next">&gt;</button>
+        </div>
+    </section>
+    
+
+<!-- Seção Consultar -->
+    <section id="consultar" class="section consultar-section">
+        <h2>Consultar</h2>
+        <p>Selecione os sintomas observados para obter informações sobre os possíveis nutrientes deficientes.</p>
+        <br><br>
+        
+        <!-- Lista de sintomas -->
+        <form id="sintomas-form">
+            <div class="sintomas-container">
+                <label><input type="checkbox" value="Crescimento lento e reduzido"> Crescimento lento e reduzido</label>
+                <label><input type="checkbox" value="Deformações Folhas, flores ou frutos"> Deformações Folhas, flores ou frutos</label>
+                <label><input type="checkbox" value="Murcha das extremidades"> Murcha das extremidades</label>
+                <label><input type="checkbox" value="Necrose em pontos"> Necrose em pontos</label>
+                <label><input type="checkbox" value="Crescimento atrofiado e murchas"> Crescimento atrofiado e murchas</label>
+                <label><input type="checkbox" value="Morte de meristemas"> Morte de meristemas</label>
+                <label><input type="checkbox" value="Necrose nas extremidades das folhas"> Necrose nas extremidades das folhas</label>
+                <label><input type="checkbox" value="Clorose"> Clorose</label>
+                <label><input type="checkbox" value="Diminuição do crescimento"> Diminuição do crescimento</label>
+                <label><input type="checkbox" value="Necrose nas folhas"> Necrose nas folhas</label>
+                <label><input type="checkbox" value="Necrose nas pontas das raízes"> Necrose nas pontas das raízes</label>
+                <label><input type="checkbox" value="Redução da resistência a doenças"> Redução da resistência a doenças</label>
+                <label><input type="checkbox" value="Distúrbios do sistema vascular"> Distúrbios do sistema vascular</label>
+                <label><input type="checkbox" value="Enfraquecimento das raízes"> Enfraquecimento das raízes</label>
+                <label><input type="checkbox" value="Crescimento atrofiado e amarelamento das folhas"> Crescimento atrofiado e amarelamento das folhas</label>
+                <label><input type="checkbox" value="Clorose entre nervuras"> Clorose entre nervuras</label>
+                <label><input type="checkbox" value="Dificuldade na floração e frutificação"> Dificuldade na floração e frutificação</label>
+                <label><input type="checkbox" value="Folhas roxas ou verde-escuro"> Folhas roxas ou verde-escuro</label>
+                <label><input type="checkbox" value="Manchas amareladas ou vermelhas nas folhas"> Manchas amareladas ou vermelhas nas folhas</label>
+                <label><input type="checkbox" value="Queda prematura de folhas"> Queda prematura de folhas</label>
+                <label><input type="checkbox" value="Manchas necróticas nas folhas"> Manchas necróticas nas folhas</label>
+                <label><input type="checkbox" value="Redução da produção de frutos e flores"> Redução da produção de frutos e flores</label>
+                <label><input type="checkbox" value="Enfraquecimento da planta"> Enfraquecimento da planta</label>
+                <label><input type="checkbox" value="Acúmulo de toxinas nas folhas e caules"> Acúmulo de toxinas nas folhas e caules</label>
+                <label><input type="checkbox" value="Folhas menores e mais finas"> Folhas menores e mais finas</label>
+                <label><input type="checkbox" value="Tonalidade pálida"> Tonalidade pálida</label>
+                <label><input type="checkbox" value="Encurtamento de entrenós"> Encurtamento de entrenós</label>
+            </div>
+            <br><br>
+
+            <label for="localOcorrencia"><strong>Local de Ocorrência:<strong></label>
+            <select id="localOcorrencia" name="localOcorrencia">
+              <option value="todaPlanta">Toda planta</option>
+              <option value="folhasJovens">Folhas Jovens</option>
+              <option value="folhasVelhas">Folhas Velhas</option>
+              <option value="raizes">Raízes</option>
+            </select>
+
+            <br><br>
+
+            <button type="button" id="consultar-sintomas-btn">Consultar</button>
+        
+        </form>
+        <!-- Resultado da consulta -->
+        <div id="resultado-consulta"></div>
+    </section>
+
+    <section id="alunos" style="background-color: #f5f5f5; padding: 2rem;">
+        <h2 style="text-align: center; color: #2e7d32;">Alunos Responsáveis pelo Trabalho</h2>
+        <div class="alunos-container">
+            <div class="card">
+                <img src="/personas/galera.jpg" alt="Alunos responsáveis pelo trabalho">
+            </div>
+        </div>
+    </section>
+    
+
+    <footer class="footer">
+        <div class="container">
+            <ul class="social-icons">
+                <li>
+                    <a href="https://github.com/isis-manzano" target="_blank">
+                        <ion-icon name="logo-github"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://linkedin.com/" target="_blank">
+                        <ion-icon name="logo-linkedin"></ion-icon>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://www.instagram.com/isistognolli/profilecard/?igsh=MWZiZWkxcXEyc3JuZQ%3D%3D" target="_blank">
+                        <ion-icon name="logo-instagram"></ion-icon>
+                    </a>
+                </li>
+            </ul>
+            <p>&copy; 2025 - Todos os direitos reservados</p>
+        </div>
+    </footer>
+</body>
+</html>
