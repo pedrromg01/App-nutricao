@@ -26,4 +26,5 @@ Gostaria de agradecer especialmente ao **Pedro Martins**, que me ensinou tudo o 
 
 1. Confira o projeto em funcionamento no link do deploy:  
    [Acesse o Deploy](https://lnkd.in/dFB2rhUd)
+
 https://github.com/isis-manzano
